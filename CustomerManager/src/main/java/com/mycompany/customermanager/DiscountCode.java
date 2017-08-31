@@ -54,6 +54,10 @@ public class DiscountCode implements Serializable {
     public DiscountCode(String discountCode) {
         this.discountCode = discountCode;
     }
+    
+    public String toJosn() {
+        return null;
+    }
 
     public String getDiscountCode() {
         return discountCode;
