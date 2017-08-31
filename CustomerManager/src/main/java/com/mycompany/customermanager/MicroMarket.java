@@ -59,6 +59,12 @@ public class MicroMarket implements Serializable {
     public MicroMarket(String zipCode) {
         this.zipCode = zipCode;
     }
+    
+    public String toJson() {
+        return null;
+    } 
+                             
+    /* Propiedades */
 
     public String getZipCode() {
         return zipCode;
