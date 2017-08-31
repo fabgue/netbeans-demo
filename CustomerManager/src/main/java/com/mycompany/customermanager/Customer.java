@@ -40,6 +40,7 @@ import javax.xml.bind.annotation.XmlRootElement;
     , @NamedQuery(name = "Customer.findByCreditLimit", query = "SELECT c FROM Customer c WHERE c.creditLimit = :creditLimit")})
 public class Customer implements Serializable {
 
+    //branc correction
     private static final long serialVersionUID = 1L;
     @Id
     @Basic(optional = false)
